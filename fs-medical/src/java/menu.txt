@@ -1,67 +1,68 @@
  {
-    "button": [
-        
-        {  
-               "type": "click",
-               "name": "中心简介",
-               "key": "intro"
-        },
+    "button": [   
+         {
+            "name": "中心简介",
+            "sub_button": [
+                {
+                    "type": "click",
+                    "name": "中心简介",
+                    "key": "intro"
+                },
+                {
+                    "type": "view",
+                    "name": "基础医疗",
+                   "url": "http://yijuan.sh-hansi.com/fs-medical/basicMedicine/basicMedicine"
+                },
+                {
+                    "type": "view",
+                    "name": "公共卫生",
+                    "url": "http://yijuan.sh-hansi.com/fs-medical/publicHealth/publicHealth"
+                }
+            ]
+          },
         
         {
             "name": "公共服务",
             "sub_button": [
                 {
                     "type": "view",
-                    "name": "基础医疗",
-                    "url": "http://www.baidu.com"
+                    "name": "家庭医生申请",
+                    "url": "http://yijuan.sh-hansi.com/fs-medical/homeDoctor/homeDoctor"
                 },
                 {
                     "type": "view",
-                    "name": "公共卫生",
-                   "url": "http://www.baidu.com"
+                    "name": "慢病管理申请",
+                    "url": "http://yijuan.sh-hansi.com/fs-medical/manaSick/manaSick"
                 },
                 {
                     "type": "view",
-                    "name": "健康宣讲",
-                    "url": "http://www.baidu.com"
-                }
+                    "name": "家庭病床申请",
+                    "url": "http://yijuan.sh-hansi.com/fs-medical/homeSickBed/homeSickbed"
+                },
+                {
+                    "type": "view",
+                    "name": "健康知识宣讲",
+                    "url": "http://yijuan.sh-hansi.com/fs-medical/knowlege/knowlege"
+                }            
             ]
           },
           
           {
             "name": "便民服务",
-            "sub_button": [
+            "sub_button": [               
                 {
                     "type": "view",
-                    "name": "家庭医生",
-                    "url": "http://yijuan.sh-hansi.com/fs-medical/homeDoctor/homeDoctor"
+                    "name": "计划免疫预约",
+                    "url": "http://yijuan.sh-hansi.com/fs-medical/immuniPlan/addChild"
                 },
                 {
                     "type": "view",
-                    "name": "慢病管理",
-                    "url": "http://yijuan.sh-hansi.com/fs-medical/manaSick/manaSick"
-                },
-                {
-                    "type": "view",
-                    "name": "家庭病床",
-                    "url": "http://www.baidu.com"
-                },
-                {
-                    "type": "view",
-                    "name": "计划免疫",
-                   "url": "http://yijuan.sh-hansi.com/fs-medical/immuniPlan/addChild"
-                },
-                {
-                    "type": "view",
-                    "name": "儿童保健",
-                   "url": "http://www.baidu.com"
+                    "name": "儿童保健预约",
+                   "url": "http://yijuan.sh-hansi.com/fs-medical/childCare/childCare"
                 }
          
             ]
-        }
-          
-          
-          
+        }    
           
     ]
 }
